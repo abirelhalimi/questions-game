@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".AudioSettingsActivity"
+  android:background="@drawable/backlog">
+
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="469dp"
+    android:gravity="center"
+    android:text="@string/audio_settings_description" />
+
+
+  <Button
+    android:id="@+id/audio_file_managing_button"
+    style="@style/AppTheme.Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="275dp"
+    android:layout_weight="1"
+    android:background="@color/greenmygreen"
+    android:text="manage"
+    android:theme="@style/AppTheme.Button" />
+
+  <Button
+    android:id="@+id/audio_file_localy_button"
+    style="@style/AppTheme.Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="335dp"
+    android:layout_weight="1"
+    android:background="@color/greenmygreen"
+    android:clickable="false"
+    android:text="emport/export localy"
+    android:theme="@style/AppTheme.Button" />
+
+  <Button
+    android:id="@+id/audio_file_server_button"
+    style="@style/AppTheme.Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="393dp"
+    android:layout_weight="1"
+    android:background="@color/greenmygreen"
+    android:clickable="false"
+    android:text="import/export server"
+    android:textColor="@android:color/white"
+    android:theme="@style/AppTheme.Button" />
+
+
+  <TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="116dp"
+    android:layout_marginBottom="547dp"
+    android:paddingTop="25dp"
+    android:text="Adjust Media Volume"
+    android:textAlignment="center"
+    android:textColor="@color/brownie"
+    android:textSize="24sp" />
+
+  <SeekBar
+    android:id="@+id/seekBar1"
+    style="@style/Widget.AppCompat.SeekBar"
+    android:layout_width="277dp"
+    android:layout_height="36dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="205dp"
+    android:thumb="@color/greenmygreen" />
+
+  <Button
+    android:id="@+id/play"
+    style="@style/Widget.AppCompat.Button.Borderless"
+    android:layout_width="169dp"
+    android:layout_height="91dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="223dp"
+    android:layout_marginBottom="93dp"
+    android:fontFamily="cursive"
+    android:onClick="play"
+    android:text="Play"
+    android:textColor="@color/brownie"
+    android:textSize="30sp" />
+
+  <ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="303dp"
+    android:layout_marginBottom="169dp"
+    app:srcCompat="@drawable/sound" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <color name="colorPrimary">#FFFFFF</color>
+  <color name="colorPrimaryDark">#00574B</color>
+  <color name="colorAccent">#D81B60</color>
+  <color name="greenmygreen" tools:ignore="MissingDefaultResource">#69B696</color>
+  <color name="mygreen">#69B696</color>
+  <color name="myyellow">#E7E650</color>
+  <color name="myorange">#EFA041</color>
+  <color name="myblue">#52BBE8</color>
+</resources>
